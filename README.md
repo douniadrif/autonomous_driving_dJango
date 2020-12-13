@@ -20,8 +20,9 @@ La compréhension du problème métier
 Le but de ce projet est de collectée est analysée des données pour en extraire des indicateurs relatifs aux :
 
 
+ Quels sont les besoins d’utilisateurs ?
 
- Quels sont les besoins d’utilisateurs ? Quels La distance la plus récurrents ?
+Quels La distance la plus récurrents ?
 
 Quels La moyenne de prix par km ?
  quel es le poids des personnes et baguage final de véhicule ?
@@ -44,6 +45,7 @@ Le but de ce projet est de collectée est analysée des données pour en extrair
 
 
 3- concevoir une application pour tablette qui sert d’interface d’accès aux données :
+
 une présentation des données étudier ?
  une partie d’utilisateurs qui éclairent les critères sur lesquels en se basent pour construire un drone autonome ?
 une partie qui suit les données capter par les drones ?
@@ -53,7 +55,9 @@ La compréhension des données
 les problèmes métiers relatifs à des données existantes :
 externe : sur le site web deloitte , des tableaux de bord d'enquête client automatique des differents payés de monde . interne : pas des données propre au entreprise
 identifier la qualité des données disponibles :
-ndisponibilité d’autres sources open des données qui traitent le même sujet puisque c’est un projet qui n’est pas encore réalisé opte pour le choix :
+ndisponibilité d’autres sources open des données qui traitent le même sujet puisque c’est un projet qui n’est pas encore réalisé opte pour le choix 
+
+
 - Un formulaire aux utilisateurs .
 - Des données générer automatiquement par un système .
 - Scraping des données a partie d’un site web .
@@ -76,6 +80,9 @@ o un programme qui décale le temps chaque minute
 Le déploiement
 mise en production pour les utilisateurs finaux des modèles obtenus
 génération d’un rapport décrivant les connaissances
+
+
+
   
 Consultation des Dashboard
 mise en production pour les avis des future utilisateurs
@@ -85,7 +92,11 @@ de méme pour les autres payés (UK , USA , Canada, GERMANY )
 mise en production pour les avis des future utilisateurs marocains des véhicules autonome en se basent sur une formulaire replie par une population marocaines :
 mettre la connaissance obtenue par la modélisation des dashboard , dans une forme portail contient des Dashboard et l’intégrer au processus de prise de décision.
  
+ 
+ 
  mise en production pour les avis des future utilisateurs marocains des DRONE autonome en se basent sur une formulaire replie par une population marocaines :
+
+
 
   
 Échantillon de nos base de données :
