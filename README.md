@@ -106,4 +106,3 @@ mettre la connaissance obtenue par la modélisation des dashboard , dans une for
 Conclusion Générale
 Dans ce rapport, nous avons étudié caractéristiques des DRONE Autonome et les véhicule Autonome par la conception et le développement d’une plateforme web qui offre des services aux décisionnels de prendre leurs décisions liées aux critères sur lesquels en se basent pour la réalisation de ce Project ainsi une visualisation des champs capter par les capteurs aux moment de vol .
 Nous avons essayé à définir les besoins afin de réaliser une conception évolutive du portail qui peut être optimisé et accepte de nouvelles tâches tel la réception des données en temps réel .
- 
