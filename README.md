@@ -25,9 +25,13 @@ Le but de ce projet est de collectée est analysée des données pour en extrair
 Quels La distance la plus récurrents ?
 
 Quels La moyenne de prix par km ?
+
  quel es le poids des personnes et baguage final de véhicule ?
+
  Quel espace a réservé aux objets fragiles ?
+
  quels sont les facteurs qui influence le choix d’acceptation d’utilisations des drone ?
+
  quels sont les critères sur lesquels en se basent pour construire un drone autonome ou une véhicule Autonome ?
 
 
@@ -36,9 +40,13 @@ Le but de ce projet est de collectée est analysée des données pour en extrair
 2- Les capteurs produisent des data auxquels se rajoutent d’autres éléments à analyser:
 
 - quels Sont les données capter par les drones autonome ?
+
 -  quels sont les facteurs qu’on peuvent suivre a Distance ?
+
 -  quels le carburant consommé par trajet au km ?
+
 - quel est le temps passé sur la route ou en vol ?
+
 - quel est le temps de charge des batteries
 
 
@@ -47,12 +55,17 @@ Le but de ce projet est de collectée est analysée des données pour en extrair
 3- concevoir une application pour tablette qui sert d’interface d’accès aux données :
 
 une présentation des données étudier ?
+
  une partie d’utilisateurs qui éclairent les critères sur lesquels en se basent pour construire un drone autonome ?
+
 une partie qui suit les données capter par les drones ?
+
  d’offrir un portail interactif contient des Dashboard des utilisateurs et des données des collectés par les capteurs
+
 
 La compréhension des données
 les problèmes métiers relatifs à des données existantes :
+
 externe : sur le site web deloitte , des tableaux de bord d'enquête client automatique des differents payés de monde . interne : pas des données propre au entreprise
 identifier la qualité des données disponibles :
 ndisponibilité d’autres sources open des données qui traitent le même sujet puisque c’est un projet qui n’est pas encore réalisé opte pour le choix 
@@ -65,7 +78,11 @@ les données à analyser
 - point de départ, point d’arrivée, distances à parcourir, fréquences, nombre de passagers, taille des personnes, poids des personnes, encombrement des affaires à transporter volume et poids, présence d’objets fragiles, présence d’objets dangereux , le prix à pays par rapport à des seuils mini-maxi , possibilité d’adhérer à un contrat de service avec un minimum de trajets à effectuer .
 -
 
+
 - La vitesse , la vitesse de vent , la vitesse d’internet , la température , l’humidité , la position ( longiture , latitude ) , la pression , puissance et tension ?
+
+
+
 La construction du Data Hub
 Préparation et nettoyage recodage des données
 o extraction d’adresse complet à partir de point de départ et et point arrivé
@@ -86,7 +103,7 @@ génération d’un rapport décrivant les connaissances
   
 Consultation des Dashboard
 mise en production pour les avis des future utilisateurs
- mise en production pour les avis des future utilisateurs françcaise :
+mise en production pour les avis des future utilisateurs françcaise :
  
 de méme pour les autres payés (UK , USA , Canada, GERMANY )
 mise en production pour les avis des future utilisateurs marocains des véhicules autonome en se basent sur une formulaire replie par une population marocaines :
