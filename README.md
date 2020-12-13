@@ -18,8 +18,9 @@ D’Après plusieurs études de l’existant, de conception et de modélisation 
 La compréhension du problème métier
 
 Le but de ce projet est de collectée est analysée des données pour en extraire des indicateurs relatifs aux :
-1- besoinsd’usagerspotentielsdesvéhiculesélectriquesautonomes ou de drones autonomes (point de départ, point d’arrivée, distances à parcourir, fréquences, nombre de passagers, taille des personnes, poids des personnes, encombrement des affaires à transporter volume et poids, présence d’objets fragiles, présence d’objets dangereux comme une batterie inflammable par exemple; le prix à pays par rapport à des seuils mini-maxi; possibilité d’adhérer à un contrat de service avec un minimum de trajets à effectuer ...);
--
+
+
+
  Quels sont les besoins d’utilisateurs ? Quels La distance la plus récurrents ?
 
 Quels La moyenne de prix par km ?
@@ -32,7 +33,7 @@ Le but de ce projet est de collectée est analysée des données pour en extrair
 
 
 2- Les capteurs produisent des data auxquels se rajoutent d’autres éléments à analyser:
--
+
 - quels Sont les données capter par les drones autonome ?
 -  quels sont les facteurs qu’on peuvent suivre a Distance ?
 -  quels le carburant consommé par trajet au km ?
