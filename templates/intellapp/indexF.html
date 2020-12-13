@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up Form by Colorlib</title>
+
+    <!-- Font Icon -->
+    <link href="{% static 'fonts/material-icon/css/material-design-iconic-font.min.css'%}"  rel="stylesheet" >
+    <link href="{% static 'vendor/nouislider/nouislider.min.css'%}" rel="stylesheet">
+
+    <!-- Main css -->
+     <link href="{% static 'css/style.css'%}"  rel="stylesheet" >
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="container">
+            <div class="signup-content">
+                <div class="signup-img">
+                    <img src="images/collage.png" alt="" >
+                    <img src="images/collage.png" alt="" >
+                    <div class="signup-img-content">
+                                            </div>
+                </div>
+                <div class="signup-form">
+                    <form  action="welcome.html" action="formulaire.php" method="POST" class="register-form" id="register-form">
+                        
+                        <div class="form-row">
+                            
+                            <div class="form-group">
+                                <div class="form-radio">
+                                    <div class="label-flex">
+                                        <label for="payment" class="required">VOUS êTRE UNE PéRSONNE OU UNE ENTREPRISE ?</label>
+                                     <a href="#" class="form-link"></a>
+                                    </div>  
+                                    <div class="form-radio-group">            
+                                        <div class="form-radio-item">
+                                            <input type="radio" name="personne" id="cash" checked >
+                                            <label for="cash">ENTREPRISE</label>
+                                            <span class="check"></span>
+                                        </div>
+                                        <div class="form-radio-item">
+                                            <input type="radio" name="personne" id="cheque">
+                                            <label for="cheque">PERSONNE</label>
+                                            <span class="check"></span>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+
+
+   
+
+   
+                              
+
+                                <div class="form-radio">
+                                    <div class="label-flex">
+                                        <label for="payment" class="required">préférez-vous comme moyen de transport autonome ?</label>
+                                        <a href="#" class="form-link"></a>
+                                    </div>
+                                    <div class="form-radio-group">            
+                                        <div class="form-radio-item">
+                                            <input type="radio" name="drone_autonome" id="cash5" checked>
+                                            <label for="cash5">
+                                            <option value="Vegetarian">DRONE AUTONOME </label>
+                                            <span class="check"></span>
+                                        </div>
+                                        <div class="form-radio-item">
+                                            <input type="radio" name="drone_autonome" id="cheque5">
+                                            <label for="cheque5">VEHECULE ELECTRIQUE AUTONOME </label>
+                                            <span class="check"></span>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+
+
+
+
+
+
+
+
+
+   
+                                <div class="form-input">
+                                    <label for="company" class="required">FRéQUENCE PAR SEMAINE </label>
+                                    
+                                            <input type="text" name="frequence" id="payable" required />
+                                    
+                                </div>
+                                <div class="form-input">
+                                    <label for="email" class="required">NOMBRE DE PASSAGERS </label>
+                                    
+                                          <input type="text" name="nbre_passagers" id="payable" required />
+                                    
+                                </div>
+
+
+
+
+
+                                <div class="form-input">
+                                    <label for="phone_number" class="required">POIDS DE BAGUAGES EN KG</label>
+                                  <input type="text" name="poids_baguage" id="payable" required />                             </div>
+                           
+   
+                                <div class="form-input">
+                                    <label for="company" class="required">Quel est Le Prix Prét a Payé Pour 1KM EN MAD?</label>
+                                    
+                                            <input type="text" name="frequence" id="payable" required />
+                                    
+                                </div> </div>
+
+                            
+
+
+                            <div class="form-group">
+                                <div class="form-select">
+                                    <div class="label-flex">
+                                        <label for="meal_preference1" class="required">DISTANCE à PARCOURIR </label>
+                                        
+                                    </div>
+                                    <div class="select-list">
+                                        <select name="dis_parcourire" id="meal_preference">
+                                         <option value="Vegetarian">0 - 5km</option>
+                                            <option value="Kosher">5 - 10km</option>
+                                            <option value="Asian Vegetarian">10 - 20km</option>
+                                            <option value="Asian Vegetarian">20 - 30 km</option>
+                                            <option value="Asian Vegetarian">Plus Que 30km</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-radio">
+                                    <div class="label-flex">
+                                        <label for="payment" class="required">présence d’objets fragiles</label>
+                                        <a href="#" class="form-link"></a>
+                                    </div>
+                                    <div class="form-radio-group">            
+                                        <div class="form-radio-item">
+                                            <input type="radio" name="fragile" id="cash1" checked>
+                                            <label for="cash1">OUI</label>
+                                            <span class="check"></span>
+                                        </div>
+                                        <div class="form-radio-item">
+                                            <input type="radio" name="fragile" id="cheque1">
+                                            <label for="cheque1">NO</label>
+                                            <span class="check"></span>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+
+
+                                <div class="form-radio">
+                                    <div class="label-flex">
+                                        <label for="payment" class="required">présence d’objets dangereux</label>
+                                        <a href="#" class="form-link"></a>
+                                    </div>
+                                    <div class="form-radio-group">            
+                                        <div class="form-radio-item">
+                                            <input type="radio" name="objs_dangereux" id="cash2" checked>
+                                            <label for="cash2">OUI</label>
+                                            <span class="check"></span>
+                                        </div>
+                                        <div class="form-radio-item">
+                                            <input type="radio" name="objs_dangereux" id="cheque2">
+                                            <label for="cheque2">NO</label>
+                                            <span class="check"></span>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+
+
+                                <div class="form-input">
+                                    <label for="payable" >Présence D'autres objects  </label>
+                                    <input type="text" name="autre_objets" id="payable"  />
+                                <div class="select-list">
+                                                                <div class="form-input">
+                                    <label for="payable" >Adresse départ  </label>
+                                    <input type="text" name="autre_objets" id="payable"  />
+                                <div class="select-list">
+                                                                    <div class="form-input">
+                                    <label for="payable" >Adresse d'arrivé </label>
+                                    <input type="text" name="autre_objets" id="payable"  />
+                                <div class="select-list">
+                                      
+                                    </div>
+                                </div>
+
+                                 <div class="form-radio">
+                                    <div class="label-flex">
+                                        <label for="payment" class="required">possibilité d’adhérer à un contrat de service avec un minimum de trajets à effectuer </label>
+                                        <a href="#" class="form-link"></a>
+                                    </div>
+                                    <div class="form-radio-group">            
+                                        <div class="form-radio-item">
+                                            <input type="radio" name="subscription" id="cash3" checked>
+                                            <label for="cash3">OUI</label>
+                                            <span class="check"></span>
+                                        </div>
+                                        <div class="form-radio-item">
+                                            <input type="radio" name="subscription" id="cheque3">
+                                            <label for="cheque3">POSSIBLE</label>
+                                            <span class="check"></span>
+                                        </div>
+                                           <div class="form-radio-item">
+                                            <input type="radio" name="subscription" id="cheque4">
+                                            <label for="cheque4">NO</label>
+                                            <span class="check"></span>
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                </div>
+
+
+
+
+
+
+
+                            </div>
+                        </div>
+
+
+   
+                   
+
+                        <label for="payable" class="required">CHOISIR VOTRE POINT DE DEPART ET POINT D'ARRIVEE :  </label>
+                        <div id="map">
+                            
+                        </div>
+
+ <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2ri6UkmOtrWHcRTD_8pQylF5b0FwZZOQ&callback=initMap"></script>
+<div id="div1" hidden >
+</div>
+<style>
+
+</style>
+  <script>
+  var i=0;
+  function initMap() {
+    
+    var s=""
+ 
+    var myLatlng = {lat: 33.53038841649606, lng:  -7.605743520542216};
+
+    var map = new google.maps.Map(
+        document.getElementById('map'), {zoom: 10, center: myLatlng});
+
+    // Create the initial InfoWindow.
+    var infoWindow = new google.maps.InfoWindow(
+        {content: 'Click the map to get Lat/Lng!', position: myLatlng});
+    //infoWindow.open(map);
+
+    // Configure the click listener.
+    if(i<2){
+    map.addListener('click', function(mapsMouseEvent) {
+      // Close the current InfoWindow.
+      //infoWindow.close();
+      if(i==0) s="depart";
+      else s="arrivee"
+    i++;
+      // Create a new InfoWindow.
+      infoWindow = new google.maps.InfoWindow({position: mapsMouseEvent.latLng});
+      infoWindow.setContent(s+": "+mapsMouseEvent.latLng.toString());
+        var para = document.createElement("input");
+        var node = document.createTextNode(mapsMouseEvent.latLng.toString());
+        para.appendChild(node);
+        para.setAttribute("name", s);
+        para.setAttribute("value",mapsMouseEvent.latLng.toString());
+
+        var element = document.getElementById("div1");
+        element.appendChild(para);
+      infoWindow.open(map);
+
+
+    });
+
+    }
+  }
+</script>
+</script>
+
+                        <div class="form-submit">
+                            <input type="submit" value="Submit" class="submit" id="submit" name="submit" />
+                            <input type="reset" value="Reset" class="submit" id="reset" name="reset" />
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/nouislider/nouislider.min.js"></script>
+    <script src="vendor/wnumb/wNumb.js"></script>
+    <script src="vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="vendor/jquery-validation/dist/additional-methods.min.js"></script>
+    <script src="js/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
